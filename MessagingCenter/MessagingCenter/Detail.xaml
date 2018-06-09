@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MessagingCenter.Detail"
+             Title="Detail"
+             Padding="20">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="entry" Placeholder="Description"/>
+            <Button x:Name="button" Text="Add item"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
